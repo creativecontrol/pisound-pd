@@ -1,0 +1,9 @@
+name: Gigaverb
+author: Thadeus Reed, creativecontrol
+entry: Gigaverb.pd
+image:
+tags:
+    - Live
+    - Reverb
+description: |
+    Big Reverb

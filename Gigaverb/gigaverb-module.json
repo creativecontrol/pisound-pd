@@ -1,0 +1,19 @@
+{
+	"name" : "gigaverb",
+	"display" : "Gigaverb",
+	"parameters" : [
+		["float","roomsize","Room Size",1,300,0],
+		["float","damping","Damping",0,1,0],
+		["float","revtime","Reverb Time",0.1,360,0],
+		["float","bandwidth","Bandwidth",0,1,0],
+		["float","early","Early",-90,0,0],
+		["float","tail","Tail",-90,0,0],
+		["float","dry","Dry",-90,0,0],
+		["float","wet","Wet",-90,0,0],
+		["bool","bypass","Bypass",0],
+		["bool","clear_btn","Clear",0]
+	],
+	"pages" : [
+		["pg_start","Main",["roomsize","damping","revtime", "bandwidth", "early","tail","dry","wet","bypass","clear_btn"]]
+	]
+}

@@ -1,0 +1,17 @@
+name: DlyVrb
+author: Thadeus Reed, creativecontrol
+entry: DlyVrb.pd
+image: cc.png
+tags:
+    - Live
+    - Delay
+    - Reverb
+description: |
+    Delay + Reverb
+
+    Delay - Left Channel In
+
+    Reverb - Right Channel In
+
+    Delay can be mixed into Reverb or left separate for later processing. Each
+    Effect can be left mono and exit the same channel or can be mixed to both outputs.

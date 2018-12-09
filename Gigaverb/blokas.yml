@@ -1,7 +1,7 @@
 name: Gigaverb
 author: Thadeus Reed, creativecontrol
 entry: Gigaverb.pd
-image:
+image: cc.png
 tags:
     - Live
     - Reverb

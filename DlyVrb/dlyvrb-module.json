@@ -1,0 +1,27 @@
+{
+	"name" : "DlyVrb",
+	"display" : "DlyVrb",
+	"parameters" : [
+		["float", "delaytime", "Delay Time",0,5000,0],
+		["float", "dlyfbk", "Delay Feedback",0,1,0],
+		["float", "dlydry", "Dry",0,1,0],
+		["float", "dlywet", "Wet",0,1,0],
+		["float", "mix2verb", "Mix to Reverb",0,1,0],
+		["bool","dlystereo","Delay to Stereo",0],
+		["float","roomsize","Room Size",1,300,0],
+		["float","damping","Damping",0,1,0],
+		["float","revtime","Reverb Time",0.1,360,0],
+		["float","bandwidth","Bandwidth",0,1,0],
+		["float","early","Early",-90,0,0],
+		["float","tail","Tail",-90,0,0],
+		["float","revdry","Dry",-90,0,0],
+		["float","revwet","Wet",-90,0,0],
+		["bool","vrbstereo","Verb to Stereo",0],
+		["bool","bypass","Bypass",0],
+		["bool","clear_btn","Clear",0]
+	],
+	"pages" : [
+		["pg_start","Delay Left Input",["delaytime","dlyfbk","dlydry","dlywet","mix2verb","dlystereo","dlyout"]],
+		["pg_verb", "Verb Right Input",["roomsize","damping","revtime", "bandwidth", "early","tail","revdry","revwet","vrbstereo","bypass","clear_btn"]]
+	]
+}

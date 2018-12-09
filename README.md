@@ -15,13 +15,13 @@ https://blokas.io/pisound/docs/Pisound-App/
 To allow for compiled PD externals to be installed from the USB stick update the usb_import.sh script on the Pi.
 
 copy the file to the Pi:
-cd <this cloned repo>
-scp usb_import.sh pi@<pi IP address>:
+    cd <this cloned repo>
+    scp usb_import.sh pi@<pi IP address>:
 
 then ssh to your pi to move the file to the correct place:
-ssh pi@<pi IP address>
+    ssh pi@<pi IP address>
 
-sudo mv usb_import.sh /usr/local/pisound-ctl/usb_import.sh
+    sudo mv usb_import.sh /usr/local/pisound-ctl/usb_import.sh
 
 
 ## Patch installation

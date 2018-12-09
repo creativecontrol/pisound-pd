@@ -30,4 +30,4 @@ then ssh to your pi to move the file to the correct place:
 The easiest way to install the patch files is to copy the project folders to a USB stick and use the method described here:
 https://blokas.io/pisound/docs/Pisound-App/#importing-items-from-usb
 
-Copy the entire pisound-patches directory to a USB stick and use in the process outlined above
+Copy the entire **pisound-patches** directory to a USB stick and use in the process outlined above

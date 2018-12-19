@@ -1,5 +1,5 @@
 # pisound-pd
-various audio patches for the pisounds platform
+various PureData audio patches for the PiSound platform
 
 Make sure you've done the standard PiSound setup:
 https://blokas.io/pisound/docs/

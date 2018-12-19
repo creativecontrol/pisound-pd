@@ -21,7 +21,7 @@ This is no longer necessary. Externals importing from USB has been added to the 
 The easiest way to install the patch files is to copy the project folders to a USB stick and use the method described here:
 https://blokas.io/pisound/docs/Pisound-App/#importing-items-from-usb
 
-Copy the **pisound-patches** directory to a USB stick and use in the process outlined above
+Copy the **puredata-patches** directory to a USB stick and use in the process outlined above
 
 ## Externals installation
 

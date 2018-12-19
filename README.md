@@ -27,4 +27,4 @@ Copy the **pisound-patches** directory to a USB stick and use in the process out
 
 Some of the patches require additional PD Externals not included with the standard distribution.
 
-Copy the **pisound-externals** directory to a USB stick and they will be copied to the RPi during USB import.
+Copy the **puredata-externals** directory to a USB stick and they will be copied to the RPi during USB import.
